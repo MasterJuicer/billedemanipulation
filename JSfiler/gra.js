@@ -88,5 +88,5 @@ function fjern(){
 function draw() {
   fill(144,192,203, 40)
   noStroke();
-  circle(mouseX, mouseY, 50);
+  circle(mouseX, mouseY, 15);
 }
