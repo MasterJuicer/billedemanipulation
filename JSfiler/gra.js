@@ -82,3 +82,11 @@ function posterize(){
 function fjern(){
     image(img, 0, 0, 400, 400);
 }
+
+
+//Tegne-funktion//
+function draw() {
+  fill(144,192,203, 40)
+  noStroke();
+  circle(mouseX, mouseY, 50);
+}
